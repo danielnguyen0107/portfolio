@@ -1,11 +1,11 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
+  "name": "Daniel Nguyen",
+  "label": "DevOps Engineer | System (Cloud & Infrastructure) Engineer",
   "image_path": "img/default-image.png",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "daniel.nguyen9471@gmail.com",
+    "phone": "+61-413791168",
+    "location": "Woodville, South Australia 5011"
   },
   "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
   "base_url": "127.0.0.1:5500",
@@ -16,41 +16,76 @@
       "svg_path": "img/globe.svg"
     },
     {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/daniel-nguyen-56611319b/",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Second Social",
-      "url": "https://sample.com",
+      "label": "Github",
+      "url": "https://github.com/danielnguyen0107",
       "svg_path": "img/github.svg"
     }
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
+      "company": "Grasshopper Asia Pte Ltd",
+      "position": "Production Support Engineer",
+      "url": "https://www.linkedin.com/jobs/view/production-support-engineer-at-grasshopper-3848417885/?refId=dOigzIxGn3PbEUTqNi5SvQ%3D%3D&trackingId=285b873ElN4NmKuKxTLfZA%3D%3D&position=20&pageNum=0&originalSubdomain=sg",
+      "start_date": "06/2020",
+      "end_date": "01/2023",
       "summary": "Short summary about present job and what the position entails",
       "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
+        "Maintained system stability of 300+ production servers via Icinga/Grafana/LibreNMS, enabling proactive issue resolution with minimal downtime and ensuring BAU.",
+        "Supported in analysing bottlenecks, troubleshooting issues, and addressing blockers of live production systems related to infrastructure and dataflow, enhancing systems reliability.",
+        "Developed and maintained a knowledge base related to SOPs, incident response guidelines, runbooks, and user guides, reducing incident resolution time by 15%.",
+        "Managed system changes for 7+ projects with precise communication, ensuring compliance with business standards and optimising business processes.",
+        "Automated deployments using Infrastructure-as-Code tools (Puppet and Terraform) and Jenkins, leveraged BASH/Python/PowerShell automation scripts to reduce 20% manual efforts.",
+        "Strengthened security via access controls and VPN configurations, managed Active Directory for both MS 365 users and service users, and implemented the exchanges' security guidelines framework",
+        "Engaged with internal and external stakeholders across teams, partnering with 4+ Colo/datacentres and 5+ exchanges."
       ]
     },
     {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
+      "company": "DXC Technology Vietnam",
+      "position": "Technical Consultant | DevOps Engineer",
+      "url": "hhttps://www.linkedin.com/jobs/view/devops-engineer-at-dxc-technology-vietnam-4298205055/?originalSubdomain=vn",
+      "start_date": "07/2019",
+      "end_date": "06/2020",
+      "summary": "Responsible for providing SaaS solution, optimising SDLC, enhancing code quality through standardised processes, and fostering collaboration between development teams and stakeholders to align technical execution with business goals.",
       "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
+        "Developed CI/CD pipelines (Jenkins/Concourse) for deployment, improving 20% deployment effort and software build reliability for 3 projects.",
+        "Integrated GitFlow/SonarQ to standardise code quality checks, version control and improved code security for the projects.",
+        "Managed cross-environment releases (QA/SIT/UAT/Pre-prod), boosting smooth transitions with full documentation.",
+        "Conducted functional tests and provided initiatives to improve UI/UX.",
+        "Optimised SDLC workflows via Atlassian tools (JIRA/BitBucket) by setting up webhooks, boosting SCRUM adherence and team collaboration to 30%.",
+        "Liaised with technical teams/stakeholders, resolving configuration issues and aligning releases with project milestones."
+      ]
+    },
+    {
+      "company": "CCintegration, Inc.",
+      "position": "System Engineer",
+      "url": "https://www.linkedin.com/company/ccintegration-inc./about/",
+      "start_date": "09/2018",
+      "end_date": "06/2019",
+      "summary": "Responsible for maintaining the stability of a in-house COTS-based platform and providing IT supports.",
+      "highlights": [
+        "Maintain the COTS system of automating configuration hardware devices",
+        "Provided L1 support, handled user requests and incident response, managed devices with InTune.",
+        "Managed 30+ internal web servers and defined performance metrics for VMware ESXi systems.",
+        "Developed BASH/Python scripts and cronjobs to automate routine tasks, improving efficiency by 15%."
+      ]
+    },
+    {
+      "company": "LINKBYNET Vietnam",
+      "position": "Junior System Engineer",
+      "url": "https://www.linkedin.com/jobs/view/system-engineer-vulnerability-at-lınkbynet-2923664527/?trackingId=M5ZksV%2Bc%2BHZAV7auNll%2FJg%3D%3D&refId=7W48ymQ0PhZQH48ywLiVIw%3D%3D&pageNum=0&position=20&trk=public_jobs_jserp-result_search-card&originalSubdomain=vn",
+      "start_date": "06/2017",
+      "end_date": "06/2018",
+      "summary": "Responsible for providing IaaS and PaaS solution, ensuring system availability of clients from retail industry.",
+      "highlights": [
+        "Performed OS-level diagnostics and optimisations to enhance critical system performance.",
+        "Provided L1 support, handled user requests and incident response following SLAs.",
+        "Developed automation scripts for efficient infrastructure monitoring and data retrieval.",
+        "Managed a large-scale environment of 100+ servers running both Linux and Windows Server."
       ]
     }
   ],
@@ -106,66 +141,71 @@
   ],
   "volunteer_experience": [
     {
-      "organization": "Latest Organization",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
+      "organization": "VietFest South Australia 2025",
+      "position": "Event Planner",
+      "url": "https://www.facebook.com/viet.festival.adelaide",
+      "start_date": "09/03/2025",
+      "end_date": "21/9/2025",
+      "summary": "Planning and executing for VietFest South Australia 2025 event; a cultural festival celebrating Vietnamese heritage.",
       "highlights": [
-        "First Duty of Current Organization",
-        "Second Duty of Current Organization",
-        "Third Duty of Current Organization"
+        "Supported design and execution of games and activities in the event.",
+        "Managed event logistics and coordination with committee members.",
+        "Developed the operational plan to control risks, ensuring smooth event flow."
       ]
     },
     {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
+      "organization": "VISA | BADMINTON TOURNAMENT 2025 ",
+      "position": "Tournament Coordinator",
+      "url": "https://www.facebook.com/visa2000.org/posts/1094582546027400",
+      "start_date": "12/04/2025",
+      "end_date": "12/04/2025",
+      "summary": "Supported the event organiser in coordinating the VISA Badminton Tournament 2025, a community sports event promoting health and wellness.",
       "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
+        "Coordinated match schedules and player registrations.",
+        "Arranged referees and courts for matches.",
+        "Supported event setup and takedown."
       ]
     }
   ],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
+      "institution": "University of South Australia",
+      "location": "Australia",
+      "url": "https://www.unisa.edu.au",
       "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
+        "Master of Information Technology (Enterprise Management)"
       ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
-      "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
+      "graduation_date": "12/2024"
     },
     {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
+      "institution": "Hoa Sen University",
+      "location": "Vietnam",
+      "url": "https://www.hoasen.edu.vn/en/about-hsu/overview/",
+      "degrees": ["Bachelor of Computer and Network Engineering"],
+      "graduation_date": "12/2017"
     }
   ],
   "skills": [
     {
-      "name": "My First Skill",
+      "name": "Linux/Windows System Administration",
       "proficiency": 100,
       "proficiency_label": "Proficiency Level"
     },
     {
-      "name": "My Second Skill",
+      "name": "Cloud Computing (Azure)",
+      "proficiency": 90,
+      "url":"https://sample.com",
+      "certification":"Microsoft Certified: Azure Administrator Associate",
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "DevOps (CI/CD, Infrastructure as Code)",
       "proficiency": 80,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "Networking Administration",
+      "proficiency": 75,
       "proficiency_label": "Proficiency Level"
     }
   ],
@@ -202,11 +242,11 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Australian Proficient"
     },
     {
-      "language": "American Sign Language",
-      "fluency": "Professional Working Proficiency"
+      "language": "Vietnamese",
+      "fluency": "Native Speaker"
     }
   ],
   "references": [

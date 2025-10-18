@@ -236,19 +236,6 @@
                       {% for deg in edu.degrees %}<li>{{ deg }}</li>{% endfor %}
                     </ul>
                   {% endif %}
-                  {% if edu.honors %}
-                    <h4>Honors</h4>
-                    <ul>
-                      {% for hon in edu.honors %}<li>{{ hon }}</li>{% endfor %}
-                    </ul>
-                  {% endif %}
-                  {% if edu.gpa_major or edu.gpa_cumulative or edu.graduation_date %}
-                    <p>
-                      {% if edu.gpa_major %}<span class="block">GPA in Major: {{ edu.gpa_major }}</span>{% endif %}
-                      {% if edu.gpa_cumulative %}<span class="block">Cumulative GPA: {{ edu.gpa_cumulative }}</span>{% endif %}
-                      {% if edu.graduation_date %}<span class="block">Graduation Date: {{ edu.graduation_date }}</span>{% endif %}
-                    </p>
-                  {% endif %}
                 </section>
               {% endfor %}
             </section>
@@ -260,7 +247,14 @@
               <ul class="unstyled-list">
                 {% for skill in skills %}
                   <li>
-                    <h3>{{ skill.name }}</h3>
+                    <h4>{{ skill.name }}</h4>
+                    <h6>
+                      {% if skill.url %} 
+                        <a href="{{ skill.url }}">{{ skill.certification }}</a>
+                      {% else %}
+                        {{ skill.certification }}
+                      {% endif %}
+                    </h6>
                     <div class="skill-bar">
                       <div class="skill-bar-fill w-{{ skill.proficiency }}"
                            role="meter"
