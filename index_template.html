@@ -130,8 +130,23 @@
                       {% for highlight in job.highlights %}<li>{{ highlight }}</li>{% endfor %}
                     </ul>
                   {% endif %}
+                  {% if job.images %}
+                    <div class="gallery main-gallery">
+                      {% for img in job.images %}
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="{{ img.img_path }}"
+                               alt="{{ img.caption }}">
+                          <figcaption>{{ img.caption }}</figcaption>
+                        </figure>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </section>
                 </section>
               {% endfor %}
+              
             </section>
           {% endif %}
 
@@ -152,19 +167,6 @@
                     <ul>
                       {% for highlight in project.highlights %}<li>{{ highlight }}</li>{% endfor %}
                     </ul>
-                  {% endif %}
-                  {% if project.images %}
-                    <div class="gallery main-gallery">
-                      {% for img in project.images %}
-                        <figure>
-                          <img width="600"
-                               height="338"
-                               src="{{ img.img_path }}"
-                               alt="{{ img.caption }}">
-                          <figcaption>{{ img.caption }}</figcaption>
-                        </figure>
-                      {% endfor %}
-                    </div>
                   {% endif %}
                 </section>
               {% endfor %}
@@ -191,6 +193,19 @@
                     <ul>
                       {% for highlight in vol.highlights %}<li>{{ highlight }}</li>{% endfor %}
                     </ul>
+                  {% endif %}
+                  {% if vol.images %}
+                    <div class="gallery main-gallery">
+                      {% for img in vol.images %}
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="{{ img.img_path }}"
+                               alt="{{ img.caption }}">
+                          <figcaption>{{ img.caption }}</figcaption>
+                        </figure>
+                      {% endfor %}
+                    </div>
                   {% endif %}
                 </section>
               {% endfor %}
@@ -229,11 +244,10 @@
                       {{ edu.institution }}
                     {% endif %}
                   </h3>
-                  {% if edu.location %}<p class="section-label">{{ edu.location }}</p>{% endif %}
+                  {% if edu.location %}<h4 class="section-label">{{ edu.location }}</h4>{% endif %}
                   {% if edu.degrees %}
-                    <h4>Degrees</h4>
                     <ul>
-                      {% for deg in edu.degrees %}<li>{{ deg }}</li>{% endfor %}
+                      {% for deg in edu.degrees %}<p>{{ deg }}</p>{% endfor %}
                     </ul>
                   {% endif %}
                 </section>

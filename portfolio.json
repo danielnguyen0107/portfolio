@@ -1,7 +1,7 @@
 {
   "name": "Daniel Nguyen",
   "label": "DevOps Engineer | System (Cloud & Infrastructure) Engineer",
-  "image_path": "img/default-image.png",
+  "image_path": "portfolio_media/_ADL9908.JPG",
   "contact": {
     "email": "daniel.nguyen9471@gmail.com",
     "phone": "+61-413791168",
@@ -11,17 +11,12 @@
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
-      "label": "Personal Website",
-      "url": "https://sample.com",
-      "svg_path": "img/globe.svg"
-    },
-    {
       "label": "LinkedIn",
       "url": "https://www.linkedin.com/in/daniel-nguyen-56611319b/",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Github",
+      "label": "Github to this portfolio",
       "url": "https://github.com/danielnguyen0107",
       "svg_path": "img/github.svg"
     }
@@ -29,7 +24,7 @@
   "work_experience": [
     {
       "company": "Grasshopper Asia Pte Ltd",
-      "position": "Production Support Engineer",
+      "position": "Production Support Engineer | SRE",
       "url": "https://www.linkedin.com/jobs/view/production-support-engineer-at-grasshopper-3848417885/?refId=dOigzIxGn3PbEUTqNi5SvQ%3D%3D&trackingId=285b873ElN4NmKuKxTLfZA%3D%3D&position=20&pageNum=0&originalSubdomain=sg",
       "start_date": "06/2020",
       "end_date": "01/2023",
@@ -86,56 +81,46 @@
         "Provided L1 support, handled user requests and incident response following SLAs.",
         "Developed automation scripts for efficient infrastructure monitoring and data retrieval.",
         "Managed a large-scale environment of 100+ servers running both Linux and Windows Server."
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/work1.jpg"
+        },
+        {
+          "img_path": "portfolio_media/work2.jpg"
+        },
+        {
+          "img_path": "portfolio_media/work3.jpg"
+        }
       ]
     }
   ],
   "projects": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
+      "title": "Capstone Project: Automated Progress Tracking in Digital Construction Projects",
+      "summary": "Partly migrating a on-premises trading application to Azure Cloud to run on a hybrid infrastructure.",
       "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
-        }
+        "Researched and developed the integretion Autodesk Build projects with other BIM software.",
+        "Optimised the business processes, developing AS-IS and TO-BE process mapping.",
+        "Presented findings to the client, leading to a 20% increase in productivity and a 15% reduction in manual tracking tasks, minimising potential human errors."
       ]
     },
     {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
-      "url": "https://sample.com",
+      "title": "Trading App Migration: Lift-and-Shift to Cloud",
+      "summary": "Partly migrating a on-premises trading application to Azure Cloud to run on a hybrid infrastructure.",
       "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
-        }
+        "Developed Infrastructure-as-Code (IaC) templates using Terraform to automate the provisioning of Azure resources, ensuring consistency and repeatability.",
+        "Managed puppet runbooks to automate configuration management and software deployment across multiple environments.",
+        "Led in asset management and migration planning, ensuring minimal downtime and data integrity during the transition."
+      ]
+    },
+    {
+      "title": "Insurance POS System Development",
+      "summary": "Developing a Point-of-Sales (POS) system for insurance services using SCRUM methodology and DevSecOps practices.",
+      "highlights": [
+        "Implemented DevSecOps practices to enhance security and compliance throughout the software development lifecycle.",
+        "Integrated GitFlow branching strategy and SonarQ to standardise development processes and improve code quality.",
+        "Developed CI/CD pipelines and managed Jenkins jobs for automated build and deployment across multiple environments."
       ]
     }
   ],
@@ -151,6 +136,17 @@
         "Supported design and execution of games and activities in the event.",
         "Managed event logistics and coordination with committee members.",
         "Developed the operational plan to control risks, ensuring smooth event flow."
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/VF1.jpg"
+        },
+        {
+          "img_path": "portfolio_media/VF3.jpg"
+        },
+        {
+          "img_path": "portfolio_media/VF2.jpg"
+        }
       ]
     },
     {
@@ -211,30 +207,24 @@
   ],
   "interests": [
     {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
+      "name": "Reading Books",
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
+          "img_path": "portfolio_media/reading1.jpg"
         }
       ]
     },
     {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
+      "name": "Traveling",
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
+          "img_path": "portfolio_media/travel1.jpg"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
+          "img_path": "portfolio_media/travel2.jpg"
+        },
+        {
+          "img_path": "portfolio_media/travel3.jpg"
         }
       ]
     }
@@ -251,14 +241,7 @@
   ],
   "references": [
     {
-      "name": "Person One",
-      "relation": "Previous Boss",
-      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
-    },
-    {
-      "name": "Person Two",
-      "relation": "Previous Coworker",
-      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
+      "reference": "Provide upon request."
     }
   ]
 }
