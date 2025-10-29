@@ -7,7 +7,7 @@
     "phone": "+61-413791168",
     "location": "Woodville, South Australia 5011"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
+  "summary": "DevOps | System Engineer with 4+ years in IT infrastructure (Azure, data centres, networks) and a Master's in Enterprise Management. Proven expertise in requirements gathering and lean improvements resulting in 20%+ efficiency gains. Adept at translating technical concepts for stakeholders, managing cross-functional projects, and driving Agile-embedded initiatives. Combines technical depth with core analysis skills in workshop facilitation and benefits realisation. Dynamic team player committed to end-to-end project success.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
@@ -28,9 +28,9 @@
       "url": "https://www.linkedin.com/jobs/view/production-support-engineer-at-grasshopper-3848417885/?refId=dOigzIxGn3PbEUTqNi5SvQ%3D%3D&trackingId=285b873ElN4NmKuKxTLfZA%3D%3D&position=20&pageNum=0&originalSubdomain=sg",
       "start_date": "06/2020",
       "end_date": "01/2023",
-      "summary": "Short summary about present job and what the position entails",
+      "summary": "Responsible for maintaining the stability of live production systems, managing system changes, automating deployments, and strengthening security measures to ensure BAU.",
       "highlights": [
-        "Maintained system stability of 300+ production servers via Icinga/Grafana/LibreNMS, enabling proactive issue resolution with minimal downtime and ensuring BAU.",
+        "Maintained system stability of 100+ production servers via Icinga/Grafana/LibreNMS, enabling proactive issue resolution with minimal downtime and ensuring BAU.",
         "Supported in analysing bottlenecks, troubleshooting issues, and addressing blockers of live production systems related to infrastructure and dataflow, enhancing systems reliability.",
         "Developed and maintained a knowledge base related to SOPs, incident response guidelines, runbooks, and user guides, reducing incident resolution time by 15%.",
         "Managed system changes for 7+ projects with precise communication, ensuring compliance with business standards and optimising business processes.",
@@ -160,6 +160,17 @@
         "Coordinated match schedules and player registrations.",
         "Arranged referees and courts for matches.",
         "Supported event setup and takedown."
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/bmt1.jpg"
+        },
+        {
+          "img_path": "portfolio_media/bmt2.jpg"
+        },
+        {
+          "img_path": "portfolio_media/bmt3.jpg"
+        }
       ]
     }
   ],
