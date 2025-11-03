@@ -38,6 +38,10 @@ jobs:
     - name: Show Azure account info
       run: |
             az account show
+    - name: Move files to Portfolio folder
+      run: |
+            mkdir portfolio
+            mv $(ls) portfolio/ -v 
     - name: Upload Portfolio to Azure Storage
       run: |
         az storage file upload-batch -s . -d https://staccrg01.file.core.windows.net/portfoliofs/portfolio --account-name staccrg01 --dryrun
