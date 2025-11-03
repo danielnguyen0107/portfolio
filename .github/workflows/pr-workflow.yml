@@ -44,6 +44,6 @@ jobs:
             az account show
     - name: Upload Portfolio to Azure Storage
       run: |
-        azcopy copy 'portfolio' 'https://staccrg01.file.core.windows.net/portfoliofs' --recursive --dry-run
+        azcopy copy 'portfolio' 'https://staccrg01.file.core.windows.net/portfoliofs' --recursive --from-to LocalFileSMB --dry-run
       env:
         AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
