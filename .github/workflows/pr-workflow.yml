@@ -41,9 +41,9 @@ jobs:
     - name: Move files to Portfolio folder
       run: |
             mkdir portfolio
-            mv $(ls) portfolio/ -v 
+            mv $(ls | grep -vw 'portfolio') portfolio/ -v 
     - name: Upload Portfolio to Azure Storage
       run: |
-        az storage file upload-batch -s . -d https://staccrg01.file.core.windows.net/portfoliofs/portfolio --account-name staccrg01 --dryrun
+        az storage file upload-batch -s . -d https://staccrg01.file.core.windows.net/portfoliofs --account-name staccrg01 --dryrun
       env:
         AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
