@@ -34,6 +34,14 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    pip install pytest pytest-azurepipelines
-    pytest
-  displayName: 'pytest'
+    python3 generage_portfolio.py
+  displayName: 'Generate portfolio page'
+    
+- task: AzureCLI@2
+  inputs:
+    azureSubscription: 'AzureDevOpsServiceConnection'
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: |
+      az storage file upload-batch -s . -d 'portfoliofs/portfolio' --account-name staccrg01
+  displayName: 'Upload portfolio page to Azure Storage Static Website'
