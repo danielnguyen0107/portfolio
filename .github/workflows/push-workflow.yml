@@ -39,7 +39,7 @@ jobs:
       run: |
             mkdir portfolio
             mv $(ls | grep -vw 'portfolio') portfolio/ -v 
-    - name: Upload Portfolio to Azure Storage
+    - name: Upload Portfolio to Azure Storagegit 
       run: |
         az storage file upload-batch -s ./portfolio -d https://staccrg01.file.core.windows.net/portfoliofs --account-name staccrg01 --dryrun
       env:
