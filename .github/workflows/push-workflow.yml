@@ -37,10 +37,10 @@ jobs:
         subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
     - name: Move files to Portfolio folder
       run: |
-            mkdir portfolio
-            mv $(ls | grep -vw 'portfolio') portfolio/ -v 
+        mkdir portfolio
+        mv $(ls | grep -vw 'portfolio') portfolio/ -v 
     - name: Upload Portfolio to Azure Storagegit 
       run: |
-        az storage file upload-batch -s portfolio -d https://staccrg01.file.core.windows.net/portfoliofs --account-name staccrg01 --dryrun
+        az storage file upload-batch -s portfolio -d https://staccrg01.file.core.windows.net/portfoliofs --account-name staccrg01
       env:
         AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
