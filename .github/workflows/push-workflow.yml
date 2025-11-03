@@ -41,6 +41,6 @@ jobs:
         subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
     - name: Upload Portfolio to Azure Storagegit 
       run: |
-        azcopy copy 'portfolio' 'https://staccrg01.file.core.windows.net/portfoliofs' --recursive --from-to LocalFileSMB
+        az storage file upload-batch -s portfolio -d https://staccrg01.file.core.windows.net/portfoliofs --destination-path portfolio --account-name staccrg01
       env:
         AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
