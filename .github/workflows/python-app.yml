@@ -30,3 +30,8 @@ jobs:
     - name: Generate portfolio
       run: |
         python ./generate_portfolio.py
+    - name: Upload Portfolio to Azure Storage
+      run: |
+        az storage file upload-batch -s ./portfolio -d '$https://staccrg01.file.core.windows.net/portfoliofs' --account-name staccrg01
+      env:
+        AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
