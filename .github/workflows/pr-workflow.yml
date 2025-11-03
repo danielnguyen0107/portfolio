@@ -31,8 +31,8 @@ jobs:
         python ./generate_portfolio.py
     - name: Move files to Portfolio folder
       run: |
-            mkdir portfolio
-            mv $(ls | grep -vw 'portfolio') portfolio/ -v 
+        mkdir portfolio
+        mv $(ls | grep -vw 'portfolio') portfolio/ -v 
     - name: Azure login
       uses: azure/login@v2
       with:
@@ -41,7 +41,7 @@ jobs:
         subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
     - name: Show Azure account info
       run: |
-            az account show
+        az account show
     - name: Upload Portfolio to Azure Storage
       run: |
         az storage file upload-batch -s portfolio -d https://staccrg01.file.core.windows.net/portfoliofs --destination-path portfolio --account-name staccrg01 --dryrun
