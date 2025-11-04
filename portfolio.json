@@ -182,14 +182,14 @@
       "degrees": [
         "Master of Information Technology (Enterprise Management)"
       ],
-      "graduation_date": "12/2024"
+      "graduation_date": "2/2023-12/2024"
     },
     {
       "institution": "Hoa Sen University",
       "location": "Vietnam",
       "url": "https://www.hoasen.edu.vn/en/about-hsu/overview/",
       "degrees": ["Bachelor of Computer and Network Engineering"],
-      "graduation_date": "12/2017"
+      "graduation_date": "2017"
     }
   ],
   "skills": [
@@ -201,7 +201,7 @@
     {
       "name": "Cloud Computing (Azure)",
       "proficiency": 90,
-      "url":"https://sample.com",
+      "url":"https://learn.microsoft.com/en-us/users/danielnguyen-3770/credentials/ecab74810d967c78",
       "certification":"Microsoft Certified: Azure Administrator Associate",
       "proficiency_label": "Proficiency Level"
     },
@@ -243,7 +243,7 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Australian Proficient"
+      "fluency": "Australian Proficient (PTE 67/IELTS 7.0)"
     },
     {
       "language": "Vietnamese",

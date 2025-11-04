@@ -250,6 +250,7 @@
                       {% for deg in edu.degrees %}<p>{{ deg }}</p>{% endfor %}
                     </ul>
                   {% endif %}
+                  {% if edu.graduation_date %}<p class="section-label">{{ edu.graduation_date }}</p>{% endif %}
                 </section>
               {% endfor %}
             </section>
